@@ -1,0 +1,77 @@
+.btn_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ================================ handle default button ================================ */
+
+.slider_btn_left_default {
+  border: 0.2rem solid var(--color_black);
+  margin-right: 2rem;
+}
+
+.slider_btn_left_default:hover {
+  border-color: var(--color_primary);
+  background-color: var(--color_primary);
+}
+
+.slider_btn_right_default {
+  background-color: var(--color_black);
+  border: none;
+}
+
+.slider_btn_right_default:hover {
+  background-color: var(--color_primary);
+}
+
+.slider_btn_left_default_svg {
+  fill: var(--color_black);
+}
+
+.slider_btn_left_default:hover .slider_btn_left_default_svg {
+  fill: var(--color_white);
+}
+
+.slider_btn_right_default_svg {
+  fill: var(--color_white);
+}
+
+/* ================================ handle red button ================================ */
+
+.slider_btn_left_red {
+  background-color: transparent;
+  border: 0.2rem solid var(--color_primary);
+  margin-right: 2rem;
+}
+
+.slider_btn_left_red:hover {
+  border-color: var(--color_primary);
+  background-color: var(--color_primary);
+}
+
+.slider_btn_right_red {
+  background-color: var(--color_primary);
+  border: none;
+}
+
+.slider_btn_right_red:hover {
+  background-color: var(--color_black);
+}
+
+.slider_btn_left_red_svg {
+  fill: var(--color_primary);
+}
+
+.slider_btn_right_red_svg {
+  fill: var(--color_primary);
+}
+
+.slider_btn_left_red:hover .slider_btn_left_red_svg {
+  fill: var(--color_white);
+}
+
+.slider_btn_right_red:hover .slider_btn_right_red_svg {
+  fill: var(--color_white);
+}
+

@@ -1,0 +1,19 @@
+
+# pvc
+  kubectl apply -f ./k8s/products-db.yaml
+
+# build images
+
+    eval $(minikube docker-env)
+
+    docker build -t foodshop-products-dev:latest ./products
+    docker build -t foodshop-auth-dev:latest ./auth
+    docker build -t foodshop-orders-dev:latest ./orders
+
+
+
+skaffold dev
+
+
+
+tsconfig.tsbuildinfo

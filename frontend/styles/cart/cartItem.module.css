@@ -1,0 +1,128 @@
+/* =========================== function class =========================== */
+.flex_center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* =========================== main class =========================== */
+.root {
+  /* background-color: #f4f6fa; */
+  /* background-color: var(--color_white); */
+  padding: 3.5rem 0;
+  /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+  /* margin-bottom: 3rem; */
+  transition: all 0.3s;
+}
+
+.lg_screen {
+  display: flex;
+  align-items: center;
+}
+
+.md_screen {
+  display: none;   
+}
+
+.sm_screen {
+  display: none;
+}
+
+.mark_icon_container {
+  flex: 0 0 5rem;
+}
+
+
+.name_container {
+  flex: 0 0 35rem;
+  flex: 0 0 35%;
+  padding: 0 1rem;
+}
+
+.view_eye_container {
+  flex: 0 0 14%;
+  flex: 0 0 8rem;
+}
+
+
+.img_container {
+  flex: 0 0 14%;
+  flex: 0 0 12rem;
+}
+
+.price_container {
+  flex: 0 0 15rem;
+}
+
+.cross_icon_container {
+  flex: 0 0 5rem;
+}
+
+/* =========================== amount container =========================== */
+.amount_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  flex-grow: 1;
+  justify-content: center;
+
+}
+
+.amount_container_icon {
+  /* flex: 0 0 4rem; */
+  width: 4rem;
+}
+
+.amount_input {
+  width: 8rem;
+  display: block;
+  font-size: 1.5rem;
+  text-align: center;
+  border: none;
+}
+
+/* =========================== data line =========================== */
+
+.first_line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second_line {
+  margin-top: 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ==================================== media ==================================== */
+
+
+@media screen and (max-width: 850px) {
+
+  .lg_screen {
+    display: none;
+  }
+
+  .md_screen {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name_container {
+    flex-grow: 1;
+  }
+
+
+}
+
+@media screen and (max-width: 450px) {
+  
+  .price_container {
+    flex: 0 0 10rem;
+  }
+
+}
+

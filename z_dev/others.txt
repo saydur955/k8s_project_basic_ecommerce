@@ -1,0 +1,3 @@
+
+* remove unused images (created by skaffold)
+  https://grok.com/share/bGVnYWN5_fd1c97f6-77cb-46d2-b71e-199d0e141225

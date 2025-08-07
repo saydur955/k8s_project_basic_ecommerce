@@ -1,0 +1,51 @@
+.root {
+  width: 100%;
+  max-width: 75rem;
+  padding: 3.5rem 0;
+
+  display: flex;
+  align-items: center;
+
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.08);
+}
+
+.viewEye {
+  flex: 0 0 12rem;
+  /* background-color: royalblue; */
+}
+
+.img {
+  flex: 0 0 12rem;
+  /* background-color: royalblue; */
+}
+
+.name {
+  flex-grow: 1;
+  /* background-color: orchid; */
+}
+
+.amount {
+  flex: 0 0 12%;
+  /* background-color: cornflowerblue; */
+}
+
+.price {
+  flex: 0 0 15%;
+  /* background-color: saddlebrown; */
+}
+
+/* ==================================== media ==================================== */
+
+
+@media screen and (max-width: 500px) {
+
+  .viewEye {
+    flex: 0 0 8rem;
+  }
+  
+  .img {
+    flex: 0 0 8rem;
+  }
+
+
+}

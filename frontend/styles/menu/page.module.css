@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 15rem;
+}
+
+.menuContainer_lg {
+  flex: 0 0 22%;
+  position: sticky;
+  top: 0;
+}
+
+.menuContainer_sm {
+  display: none;
+}
+
+.productContainer {
+  flex-grow: 1;
+  padding: 0 2rem;
+
+  /* height: 500rem; */
+}
+
+/* ==================================== media ==================================== */
+
+@media screen and (max-width: 1060px) {
+  .menuContainer_lg {
+    flex-basis: 25%;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .menuContainer_lg {
+    flex-basis: 28%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .menuContainer_lg {
+    display: none;
+  }
+  .menuContainer_sm {
+    display: block;
+  }
+}

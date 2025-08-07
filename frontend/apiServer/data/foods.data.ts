@@ -1,0 +1,1 @@
+export const api_food_getAll_doc_count = 21;

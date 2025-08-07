@@ -1,0 +1,35 @@
+.tab_menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon_container {
+  position: relative;
+  margin-right: 2rem;
+}
+
+.icon {
+  transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.icon::after {
+  position: absolute;
+  content: '';
+  bottom: -1rem;
+  left: 0;
+  height: 0.4rem;
+  width: 0%;
+  background-color: var(--color_primary);
+}
+
+.icon_active::after {
+  transition: all 0.3s cubic-bezier(0.77, 0, 0.175, 1);
+  width: 100%;
+}
+
+.icon_txt {
+  font-size: 2.5rem;
+  margin-left: 1.8rem;
+  transform: translateY(-1px);
+}

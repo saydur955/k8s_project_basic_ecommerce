@@ -1,0 +1,59 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: foodshop-products-db-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: foodshop-products-db
+  template:
+    metadata:
+      labels:
+        app: foodshop-products-db
+    spec:
+      containers:
+
+        - name: foodshop-products-db-development
+          image: mongo
+
+          volumeMounts:
+          - name: foodshop-products-db-data
+            mountPath: /data/db
+
+      volumes:
+      - name: foodshop-products-db-data
+        persistentVolumeClaim:
+          claimName: foodshop-products-db-pvc
+
+
+---
+
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: foodshop-products-db-pvc
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: foodshop-products-db-srv
+spec:
+  # ***************************************** only for local dev *****************************************
+  type: NodePort
+  selector:
+    app: foodshop-products-db
+  ports:
+    - name: db
+      protocol: TCP
+      port: 27017
+      targetPort: 27017
+      nodePort: 32017

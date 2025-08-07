@@ -1,0 +1,85 @@
+:root {
+
+  --color_primary: #DB0007;
+  --color_secondary: #FFBC0D;
+
+  --color_white: #fff;
+  --color_white_light: rgba(255, 255, 255, 0.6);
+
+  --color_black: #000;
+  --color_black_light: #2f3137;
+
+  --color_blue_gray: #646D77;
+
+  --color_slate_blue: #373e50;
+  --color_blue_black: #373f50;
+
+  --color_gold_light: #B69A81;
+
+  --color_orange: #fb9300;
+
+
+  --height_header: 5.5rem;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+/*
+  16px  =  100%
+  x     = 100X / 16
+*/
+
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 56.25%; /* 9px */
+  }
+}
+
+@media screen and (max-width: 960px) {
+  html {
+    font-size: 50%; /* 8px */
+  }
+}
+
+/* @media screen and (max-width: 600px) {
+  html {
+    font-size: 43.75%;
+  }
+} */
+
+
+body {
+  font-size: 1.5rem;
+  background-color: #fafafa;
+}
+
+
+.section_general {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  /* padding: 2rem; */
+}
+
+.section_horizontal_padding {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.content_general {
+  max-width: 1260px;
+  margin: 0 auto;
+}

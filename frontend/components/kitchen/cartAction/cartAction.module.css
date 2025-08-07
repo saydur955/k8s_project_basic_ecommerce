@@ -1,0 +1,17 @@
+.root {
+  min-width: 20rem;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btnContainer {
+  margin-top: 4rem;
+}
+
+.name_input {
+  margin-top: 3rem;
+}

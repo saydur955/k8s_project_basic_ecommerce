@@ -1,0 +1,50 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: foodshop-auth-deployement
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: foodshop-auth
+  template:
+    metadata:
+      labels:
+        app: foodshop-auth
+    spec:
+      containers:
+      - name: foodshop-auth-development
+        image: foodshop-auth-dev
+        imagePullPolicy: Never 
+        env:
+        - name: DB_HOST
+          value: "foodshop-auth-db-srv" # Matches the PostgreSQL service name
+        - name: DB_USER
+          value: "app_user"
+        - name: DB_NAME
+          value: "auth"
+        - name: DB_PASSWORD
+          value: "pass1234"
+        - name: DB_PORT
+          value: "5432"
+        - name: NODE_ENV
+          value: 'development'
+        - name: NATS_SERVER
+          value: "nats://foodshop-nats-srv:4222"
+        ports:
+        - containerPort: 3000
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: foodshop-auth-service
+spec:
+  type: ClusterIP
+  selector:
+    app: foodshop-auth
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000

@@ -1,0 +1,129 @@
+.burger_icon {
+  position: fixed;
+  right: 1.5%;
+  bottom: 5%;
+  width: 90px;
+  height: 90px;
+  background-color: rgb(255 255 255);
+  cursor: pointer;
+  z-index: 999;
+  box-shadow: 0 14px 0.8rem 0 rgb(0 0 0 / 5%);
+  border-radius: 50%;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: space-evenly;
+}
+
+.big_mac {
+  width: 50px;
+  height: 60px;
+}
+
+.bun_bottom {
+  transform: translateY(0px);
+  transition: 0.2s all;
+}
+
+.sauce_bottom {
+  transform: translateY(0px);
+  transition: 0.2s all;
+}
+
+.beef_bottom {
+  transform: rotate(0deg) translateY(0px);
+  transition: 0.2s all;
+}
+
+.cheese_bottom {
+  transform: translateY(0px);
+  transition: 0.2s all;
+}
+
+.lettuce_bottom {
+  transform: translateY(0px);
+  transition: 0.2s all;
+}
+
+.lettuce_middle {
+  transform: translateY(0px);
+  transition: 0.2s all;
+}
+
+/* .lettuce {
+
+} */
+
+.sauce_middle {
+  transform: translateY(0px);
+  transition: 0.2s all;
+}
+
+.beef_middle {
+  transform: rotate(0deg) translateY(0px);
+  transition: 0.2s all;
+}
+
+.bun_middle {
+  transform: translateY(0px);
+  transition: 0.2s all;
+}
+
+.bun_top {
+  transform: rotate(0deg) translateY(0px);
+  transition: 0.2s all;
+}
+
+
+/* ================================== hover ========================================= */
+
+.burger_icon:hover .bun_bottom {
+  transform: translateY(5px);
+}
+
+.burger_icon:hover .sauce_bottom {
+  transform: translateY(4px);
+}
+
+.burger_icon:hover .beef_bottom {
+  transform: rotate(-3deg) translateY(3px);
+}
+
+.burger_icon:hover .cheese_bottom {
+  transform: translateY(5px);
+}
+
+.burger_icon:hover .lettuce_bottom {
+  transform: translateY(3px);
+}
+
+.burger_icon:hover .lettuce_middle {
+  transform: translateY(-5px);
+}
+
+.burger_icon:hover .sauce_middle {
+  transform: translateY(-2px);
+}
+
+.burger_icon:hover .beef_middle {
+  transform: rotate(2deg) translateY(-8px);
+}
+
+.burger_icon:hover .bun_middle {
+  transform: translateY(-1px);
+}
+
+.burger_icon:hover .bun_top {
+  transform: rotate(-2deg) translateY(-9px);
+}

@@ -1,0 +1,50 @@
+.menuList_root {
+  width: 100%;
+  align-self: flex-start;
+  position: -webkit-sticky; 
+  min-height: 100vh;
+  background-color: var(--color_white);
+  padding: 0 2rem;
+}
+
+.menuItem_root {
+  margin-bottom: 4rem;
+}
+
+.backdrop_container {
+  width: 25rem;
+  position: fixed;
+  top: 0%;
+  right: 0%;
+}
+
+/* ==================================== category ==================================== */
+
+.category_title {
+  cursor: pointer;
+}
+
+.category_txt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category_underline {
+  margin-top: 1rem;
+  height: 1px;
+  width: 100%;
+  background-color: var(--color_secondary);
+}
+
+
+/* ==================================== item list ==================================== */
+
+.item_list {
+  padding: 0 2.2rem;
+}
+
+.item_one {
+  cursor: pointer;
+  padding: 1rem 0;
+}

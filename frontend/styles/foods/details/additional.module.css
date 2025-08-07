@@ -1,0 +1,12 @@
+.header {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: rgb(45, 45, 45);
+}
+
+.txt_para {
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  color: rgb(45, 45, 45);
+  line-height: 1.6;
+}

@@ -1,0 +1,39 @@
+.mainContainer {
+  min-height: 100vh;
+}
+
+.sideMenuContainer_lg {
+  width: 8rem;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+}
+
+.sideMenuContainer_xs {
+  display: none;
+}
+
+.container {
+  margin-left: 8rem;
+}
+
+@media screen and (max-width: 900px) {
+  .sideMenuContainer_lg {
+    width: 6rem;
+  }
+  .container {
+    margin-left: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sideMenuContainer_lg {
+    display: none;
+  }
+  .sideMenuContainer_xs {
+    display: block;
+  }
+  .container {
+    margin-left: 0rem;
+  }
+}

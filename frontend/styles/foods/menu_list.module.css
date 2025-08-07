@@ -1,0 +1,37 @@
+.food_list {
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.list_item {
+  flex: 0 0 33%;
+}
+
+/* ==================================== media ==================================== */
+
+@media screen and (max-width: 1000px) {
+  .list_item {
+    flex-basis: 49%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .list_item {
+    flex-basis: 33%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .list_item {
+    flex-basis: 49%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .list_item {
+    flex-basis: 100%;
+  }
+
+}

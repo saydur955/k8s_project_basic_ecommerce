@@ -1,0 +1,53 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: foodshop-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /$1
+    nginx.ingress.kubernetes.io/use-regex: "true"
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: foodshop.local
+    http:
+      paths:
+
+      - path: /api/(products.*)
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: foodshop-products-service # Your backend Service (matches kubectl get svc)
+            port:
+              number: 3000
+
+      - path: /api/(category.*)
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: foodshop-products-service # Your backend Service (matches kubectl get svc)
+            port:
+              number: 3000
+
+      - path: /api/(users.*)
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: foodshop-auth-service # Your backend Service (matches kubectl get svc)
+            port:
+              number: 3000
+
+      - path: /api/(admin.*)
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: foodshop-auth-service # Your backend Service (matches kubectl get svc)
+            port:
+              number: 3000
+
+      - path: /api/(orders.*)
+        pathType: ImplementationSpecific
+        backend:
+          service:
+            name: foodshop-orders-service # Your backend Service (matches kubectl get svc)
+            port:
+              number: 3000

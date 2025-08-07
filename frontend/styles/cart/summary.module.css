@@ -1,0 +1,30 @@
+.root {
+  flex: 0 0 100%;
+}
+
+.itemList {
+  border-top: 0.1rem solid #f0f0f0;
+  border-bottom: 0.1rem solid #f0f0f0;
+}
+
+.itemContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.8rem 0;
+}
+
+.btn_container {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* ===================================== media ===================================== */
+/* 
+@media screen and (max-width: 1000px) {
+  .root {
+    flex-basis: 35rem;
+  }
+} */

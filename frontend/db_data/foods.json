@@ -1,0 +1,2384 @@
+[{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9226"
+  },
+  "category": "burger",
+  "name": "Big Mac Burger",
+  "image_lg": "burger_big-mac.png",
+  "image_sm": "burger_big-mac.png",
+  "size": "184g",
+  "title": "A Bite of Yummy Foodgasm",
+  "item_type": "beef",
+  "price": 350,
+  "ingredients": [
+    "bread_seeded",
+    "meat_beef",
+    "onion",
+    "lettuce",
+    "cucumber",
+    "mustard"
+  ],
+  "description": "It starts with two 100% Aussie beef patties. Then comes the delicious combination of crisp iceberg lettuce, melting signature cheese, onions and pickles, between a toasted sesame seed bun. And don't forget the McDonald's special sauce!",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9227"
+  },
+  "category": "burger",
+  "item_type": "mutton",
+  "price": 260,
+  "description": "It's mighty simple, but it works. Piling our crispy bacon on to 100% Aussie beef, then complete the tasty picture with cheese, onions, tangy mustard and pickles. Bet your mouth is watering right now.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0,
+  "name": "Quarter Pounder Mutton Burger",
+  "image_lg": "burger_quarter-pounder-bacon.png",
+  "image_sm": "burger_quarter-pounder-bacon.png",
+  "size": "140g",
+  "title": "Creamy and Crunchy",
+  "ingredients": [
+    "bread_seeded",
+    "meat_beef",
+    "cheese",
+    "cucumber",
+    "ketchup",
+    "onion"
+  ]
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9228"
+  },
+  "category": "burger",
+  "item_type": "chicken",
+  "name": "Butter Chicken Grilled Burger",
+  "price": 280,
+  "size": "153g",
+  "image_lg": "burger_butter_chicken_grilled.png",
+  "image_sm": "burger_butter_chicken_grilled.png",
+  "title": "Delites Baking Adventure",
+  "ingredients": [
+    "bread_seeded",
+    "meat_chicken",
+    "onion",
+    "mustard"
+  ],
+  "description": "Premium grilled chicken patty topped with makhani sauce and shredded onions placed between freshly toasted sesame seeded buns.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9229"
+  },
+  "category": "burger",
+  "item_type": "beef",
+  "price": 220,
+  "name": "Quarter Pounder Deluxe Burger",
+  "image_lg": "burger_quarter-pounder-deluxe.png",
+  "image_sm": "burger_quarter-pounder-deluxe.png",
+  "size": "160g",
+  "title": "The Food Epilogue",
+  "ingredients": [
+    "bread_seeded",
+    "meat_beef",
+    "cheese",
+    "tomato",
+    "onion",
+    "cucumber",
+    "ketchup",
+    "mustard"
+  ],
+  "description": "It's mighty simple, but it works. Adding crispy lettuce and sliced tomato on to 100% Aussie beef, then complete the tasty picture with cheese, onions, tangy mustard, McChicken sauce and pickles. Bet your mouth is watering right now.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb922a"
+  },
+  "category": "burger",
+  "item_type": "cheese",
+  "price": 140,
+  "name": "Filet with Cheese Burger",
+  "image_lg": "burger_filet-o-fish.png",
+  "image_sm": "burger_filet-o-fish.png",
+  "size": "105g",
+  "title": "Cuisine Culture Meals",
+  "ingredients": [
+    "bread_white",
+    "cheese",
+    "mayonnaise"
+  ],
+  "description": "Dive in and enjoy our Filet-O-Fish. Sourced for its succulent and fresh flavour, we cook tender portions of fish and enhance their great taste with zesty tartar sauce and cheese.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb922b"
+  },
+  "category": "burger",
+  "item_type": "mutton",
+  "price": 250,
+  "name": "Double Quarter Pounder Burger",
+  "image_lg": "burger_double-quarter-pounder.png",
+  "image_sm": "burger_double-quarter-pounder.png",
+  "size": "260g",
+  "title": "Escaped Flavors Epilogue",
+  "ingredients": [
+    "bread_seeded",
+    "meat_mutton",
+    "cheese",
+    "cucumber",
+    "onion",
+    "ketchup"
+  ],
+  "description": "Satisfy your ultimate hunger. Take two quarter pounds* of 100% Aussie beef, then complete the tasty picture with cheese, onions, tangy mustard and pickles. Bet your mouth is watering right now.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb922c"
+  },
+  "category": "burger",
+  "item_type": "mutton",
+  "price": 180,
+  "name": "Mutton Cheese Burger",
+  "image_lg": "burger_cheeseburger.png",
+  "image_sm": "burger_cheeseburger.png",
+  "size": "120g",
+  "title": "Foodies Queen Meals of the Heart",
+  "ingredients": [
+    "bread_white",
+    "meat_mutton",
+    "cheese",
+    "cucumber",
+    "onion",
+    "mustard",
+    "ketchup"
+  ],
+  "description": "A legendary combo of 100% Aussie beef, onions, pickle, ketchup, mustard and cheese, all in a soft burger bun.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb922d"
+  },
+  "category": "burger",
+  "item_type": "egg",
+  "price": 100,
+  "name": "Sausage Egg Mcmuffin",
+  "image_lg": "burger_sausage-egg-mcmuffin.png",
+  "image_sm": "burger_sausage-egg-mcmuffin.png",
+  "size": "112g",
+  "title": "Altering Recipes Climaxing",
+  "ingredients": [
+    "bread_white",
+    "egg",
+    "cheese"
+  ],
+  "description": "A hard-hitting combo of egg, a beef sausage patty and melting slice of cheese on a classic English muffin. Served warm and tasty.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb922e"
+  },
+  "category": "burger",
+  "item_type": "cheese",
+  "name": "Fillet-O-Fish",
+  "price": 120,
+  "size": "136g",
+  "image_lg": "burger_fillet-o-cheese.png",
+  "image_sm": "burger_fillet-o-cheese.png",
+  "title": "The Heritage of Baking",
+  "ingredients": [
+    "bread_white",
+    "cheese",
+    "mayonnaise"
+  ],
+  "description": "Made with Alaskan Pollock sourced from sustainable fisheries; topped with a melty American cheese slice and creamy tartar sauce; and served on a soft, steamed bun.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb922f"
+  },
+  "category": "burger",
+  "item_type": "chicken",
+  "price": 280,
+  "name": "Double Mcspicy Burger",
+  "image_lg": "burger_double-mcspicy.png",
+  "image_sm": "burger_double-mcspicy.png",
+  "size": "195g",
+  "title": "The Happy Chopsticks",
+  "ingredients": [
+    "bread_seeded",
+    "meat_chicken",
+    "lettuce",
+    "mayonnaise"
+  ],
+  "description": "Double the spice, double the crunch. The Double McSpicy® is in store for a limited time only.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9230"
+  },
+  "category": "burger",
+  "item_type": "chicken",
+  "price": 200,
+  "name": "cheese and Chicken Mcspicy Burger",
+  "image_lg": "burger_cheese-and-bacon-mcspicy.png",
+  "image_sm": "burger_cheese-and-bacon-mcspicy.png",
+  "size": "168g",
+  "title": "The Missing Foodster",
+  "ingredients": [
+    "bread_seeded",
+    "meat_chicken",
+    "cheese",
+    "lettuce"
+  ],
+  "description": "The fiery McSpicy® but add the deliciousness of crispy bacon and Aussie Jack Cheese. In store for a limited time only.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9231"
+  },
+  "category": "burger",
+  "item_type": "mutton",
+  "price": 160,
+  "name": "Mutton Hamburger",
+  "image_lg": "burger_hamburger.png",
+  "image_sm": "burger_hamburger.png",
+  "size": "120g",
+  "title": "For The Love Of Food",
+  "ingredients": [
+    "bread_white",
+    "meat_mutton",
+    "cucumber",
+    "onion",
+    "mustard",
+    "ketchup"
+  ],
+  "description": "It's simple. 100% Aussie beef, topped with onion, pickles, zesty ketchup and mustard, all on a soft, fluffy bun.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9232"
+  },
+  "category": "burger",
+  "item_type": "beef",
+  "price": 250,
+  "name": "Double Cheeseburger",
+  "image_lg": "burger_double-cheeseburger.png",
+  "image_sm": "burger_double-cheeseburger.png",
+  "size": "175g",
+  "title": "Getting Baked Meals",
+  "ingredients": [
+    "bread_white",
+    "meat_beef",
+    "cheese",
+    "cucumber",
+    "onion",
+    "mustard",
+    "ketchup"
+  ],
+  "description": "You really will be seeing double. Two 100%  Aussie beef patties, melted cheese, tangy pickles, mustard and sweet ketchup. Delicious.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9233"
+  },
+  "category": "burger",
+  "item_type": "mutton",
+  "name": "Butter Paneer Grilled Burger",
+  "price": 280,
+  "size": "142g",
+  "image_lg": "burger_butter_paneer_grilled.png",
+  "image_sm": "burger_butter_paneer_grilled.png",
+  "title": "Incredible Edibles Desserts",
+  "ingredients": [
+    "bread_seeded",
+    "meat_mutton",
+    "onion",
+    "mustard"
+  ],
+  "description": "Mildly spiced grilled paneer patty topped with makhani sauce and shredded onions placed between freshly toasted sesame seeded buns.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9234"
+  },
+  "category": "burger",
+  "item_type": "chicken",
+  "price": 140,
+  "name": "Mcchicken Burger",
+  "image_lg": "burger_mcchicken.png",
+  "image_sm": "burger_mcchicken.png",
+  "size": "125g",
+  "title": "A Pinch of Salt Foodie",
+  "ingredients": [
+    "bread_seeded",
+    "meat_chicken",
+    "lettuce",
+    "mayonnaise"
+  ],
+  "description": "It's the simple things that matter. Like our quality chicken breast, cooked in a seasoned tempura coating. Topped with fresh, Australian-grown lettuce and our exceptional McChicken sauce, between a sesame seed bun, it's hard to beat a classic.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9235"
+  },
+  "category": "burger",
+  "item_type": "beef",
+  "price": 320,
+  "name": "Triple Cheeseburger",
+  "image_lg": "burger_triple-cheeseburger.png",
+  "image_sm": "burger_triple-cheeseburger.png",
+  "size": "260g",
+  "title": "Kitchen Cheers Food",
+  "ingredients": [
+    "bread_white",
+    "meat_beef",
+    "cheese",
+    "cucumber",
+    "onion",
+    "mustard",
+    "ketchup"
+  ],
+  "description": "Triple the taste. With our 100% Aussie beef, onions, pickle, ketchup, mustard and cheese, all in a soft toasted bun.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9236"
+  },
+  "category": "burger",
+  "item_type": "chicken",
+  "price": 160,
+  "name": "Mcspicy Chicken Burger",
+  "image_lg": "burger_mcspicy.png",
+  "image_sm": "burger_mcspicy.png",
+  "size": "138g",
+  "title": "Your Food Desires",
+  "ingredients": [
+    "bread_seeded",
+    "meat_chicken",
+    "lettuce",
+    "mayonnaise"
+  ],
+  "description": "Can you handle the heat? The fiery McSpicy® is so hot that it will bring tears to your eyes.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9237"
+  },
+  "category": "burger",
+  "item_type": "mutton",
+  "price": 180,
+  "name": "Classic Angus Burger",
+  "image_lg": "burger_classic-angus.png",
+  "image_sm": "burger_classic-angus.png",
+  "size": "170g",
+  "title": "Kitchen Portrait Food!",
+  "ingredients": [
+    "bread_white",
+    "meat_mutton",
+    "cheese",
+    "lettuce",
+    "tomato",
+    "cucumber",
+    "onion",
+    "mustard",
+    "ketchup",
+    "mayonnaise"
+  ],
+  "description": "100% Aussie Angus beef, classic cheese, tomato, onions and pickles with mustard and mayo.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9238"
+  },
+  "category": "burger",
+  "item_type": "beef",
+  "price": 260,
+  "name": "Bbq Beef Angus Burger",
+  "image_lg": "burger_bbq-bacon-angus.png",
+  "image_sm": "burger_bbq-bacon-angus.png",
+  "size": "146g",
+  "title": "Meals Appeals Gastronomic Delights",
+  "ingredients": [
+    "bread_white",
+    "meat_beef",
+    "cheese"
+  ],
+  "description": "Our new gourmet BBQ sauce, crispy bacon, and a thicker, juicier, 100% Aussie Angus beef. What’s not to love?",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9239"
+  },
+  "category": "burger",
+  "item_type": "chicken",
+  "price": 150,
+  "name": "Chicken Deluxe Burger",
+  "image_lg": "burger_chicken-deluxe.png",
+  "image_sm": "burger_chicken-deluxe.png",
+  "size": "140g",
+  "title": "Amazing Food Advisory",
+  "ingredients": [
+    "bread_seeded",
+    "meat_chicken",
+    "cheese",
+    "tomato",
+    "lettuce",
+    "mayonnaise"
+  ],
+  "description": "Treat yourself to the deluxe taste of grilled or crispy 100% Aussie chicken breast combined with Aussie Jack Cheese, lettuce, ripe tomato and just the right amount of aioli.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb923a"
+  },
+  "category": "burger",
+  "item_type": "chicken",
+  "price": 150,
+  "name": "Chicken and Cheese Burger",
+  "image_lg": "burger_chicken-n-cheese.png",
+  "image_sm": "burger_chicken-n-cheese.png",
+  "size": "110g",
+  "title": "Cheese and Wine Delight",
+  "ingredients": [
+    "bread_white",
+    "meat_chicken",
+    "cheese",
+    "lettuce",
+    "mayonnaise"
+  ],
+  "description": "A delicious combination of crispy coated chicken, cheese and mayonnaise.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb923b"
+  },
+  "category": "burger",
+  "item_type": "chicken",
+  "price": 110,
+  "name": "Chicken Caesar Mcwrap",
+  "image_lg": "burger_chicken-caesar-mcwrap.png",
+  "image_sm": "burger_chicken-caesar-mcwrap.png",
+  "size": "80g",
+  "title": "Cupcake Dreams Food",
+  "ingredients": [
+    "paratha",
+    "meat_chicken",
+    "salad",
+    "lettuce"
+  ],
+  "description": "Made with juicy 100% Aussie RSPCA Approved chicken breast, lettuce, rasher bacon, shaved parmesan and caesar dressing, all wrapped up in a delicious wholemeal tortilla.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb923c"
+  },
+  "category": "burger",
+  "item_type": "beef",
+  "price": 175,
+  "name": "Wholemeal Beef mcplant",
+  "image_lg": "burger_mcplant.png",
+  "image_sm": "burger_mcplant.png",
+  "size": "142g",
+  "title": "Can’t Resist Food",
+  "ingredients": [
+    "bread_seeded",
+    "meat_beef",
+    "lettuce",
+    "cucumber",
+    "onion",
+    "tomato"
+  ],
+  "description": "Introducing the McPlant®! A juicy, plant-based patty co-developed with Beyond Meat® and served on a sesame seed bun with tomato, lettuce, pickles, onions, mayonnaise-style sauce, ketchup, mustard and a slice of melty cheese.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb923d"
+  },
+  "category": "burger",
+  "item_type": "beef",
+  "price": 350,
+  "name": "Big Brekkie Burger",
+  "image_lg": "burger_big-brekkie-burger.png",
+  "image_sm": "burger_big-brekkie-burger.png",
+  "size": "263g",
+  "title": "Mystery Flavors, Meal Time!",
+  "ingredients": [
+    "bread_white",
+    "meat_beef",
+    "cheese",
+    "egg",
+    "onion",
+    "ketchup"
+  ],
+  "description": "It starts with a warm, crisp hash brown, melting cheese, rasher bacon and a freshly cracked egg. Finished with a 100% Aussie beef patty and a generous dollop of BBQ sauce in between a toasted sesame seed bun.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb923e"
+  },
+  "category": "burger",
+  "item_type": "cheese",
+  "price": 65,
+  "name": "Grilled Cheese Tomato Toastie",
+  "image_lg": "burger_cheese-tomato-toastie.png",
+  "image_sm": "burger_cheese-tomato-toastie.png",
+  "size": "68g",
+  "title": "Flying Love When It’s Food",
+  "ingredients": [
+    "toast",
+    "cheese",
+    "tomato"
+  ],
+  "description": "For a quick bite, we’re doing perfectly toasted toasties, with melted cheese and fresh tomato.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb923f"
+  },
+  "name": "Almighty Texan bbq",
+  "image_lg": "burger_almighty-texan-bbq.png",
+  "image_sm": "burger_almighty-texan-bbq.png",
+  "category": "burger",
+  "item_type": "beef",
+  "size": "174g",
+  "title": "Fudge Ultima Cuisine",
+  "ingredients": [
+    "bread_white",
+    "meat_beef",
+    "cheese",
+    "onion",
+    "mayonnaise"
+  ],
+  "price": 250,
+  "description": "Two 100% NZ Angus grass fed beef patties, with double the cheese, bacon, caramelised onions, BBQ Sauce and mayonnaise made for an almighty appetite.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9240"
+  },
+  "category": "burger",
+  "item_type": "cheese",
+  "price": 50,
+  "name": "Cheesy Toastie Burger",
+  "image_lg": "burger_cheesy-toastie.png",
+  "image_sm": "burger_cheesy-toastie.png",
+  "size": "57g",
+  "title": "Hometown Flavors Lover",
+  "ingredients": [
+    "toast",
+    "cheese"
+  ],
+  "description": "For a simple pleasure come in for our always-tasty Cheese Toastie.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9241"
+  },
+  "category": "burger",
+  "item_type": "cheese",
+  "price": 120,
+  "name": "Salted Caramel Macaron Burger",
+  "image_lg": "burger_salted-caramel-macaron.png",
+  "image_sm": "burger_salted-caramel-macaron.png",
+  "size": "102g",
+  "title": "Real Foodie Enthusiast",
+  "ingredients": [
+    "bread_wholemeal",
+    "cheese"
+  ],
+  "description": "For a quick flavour burst try this salted caramel treat.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9242"
+  },
+  "name": "Cheese Bacon Mcmuffin",
+  "image_lg": "burger_chicken-bacon-mcmuffin.png",
+  "image_sm": "burger_chicken-bacon-mcmuffin.png",
+  "category": "burger",
+  "item_type": "cheese",
+  "size": "95g",
+  "title": "Protein Chew Cravings",
+  "ingredients": [
+    "toast",
+    "cheese",
+    "mayonnaise"
+  ],
+  "price": 100,
+  "description": "The saucy Chicken & Bacon McMuffin® made with New Zealand chicken breast sourced from Ingham®, creamy mayo, bacon and cheese inside a warm, toasted English McMuffin.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9243"
+  },
+  "category": "burger",
+  "item_type": "egg",
+  "price": 100,
+  "name": "Mighty Mcmuffin Egg Burger",
+  "image_lg": "burger_mighty-mcmuffin.png",
+  "image_sm": "burger_mighty-mcmuffin.png",
+  "size": "130g",
+  "title": "The Spices of Life!",
+  "ingredients": [
+    "bread_white",
+    "egg",
+    "cheese",
+    "tomato"
+  ],
+  "description": "Two rashers of bacon, egg, cheese and a sausage patty on an English muffin. A mighty eat to rid you of your mighty hunger.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9244"
+  },
+  "category": "burger",
+  "item_type": "cheese",
+  "price": 120,
+  "name": "Chocolate Cheesy macaron Burger",
+  "image_lg": "burger_chocolate-macaron.png",
+  "image_sm": "burger_chocolate-macaron.png",
+  "size": "118g",
+  "title": "Tasty Delights Wholly",
+  "ingredients": [
+    "bread_wholemeal",
+    "cheese"
+  ],
+  "description": "No one does macarons like Macca’s. One taste and you’ll see why.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9245"
+  },
+  "category": "burger",
+  "item_type": "egg",
+  "price": 70,
+  "name": "Egg Mcmuffin Burger",
+  "image_lg": "burger_bacon-egg-mcmuffin.png",
+  "image_sm": "burger_bacon-egg-mcmuffin.png",
+  "size": "105g",
+  "title": "This Meal Prep Chef",
+  "ingredients": [
+    "bread_white",
+    "egg",
+    "cheese",
+    "tomato"
+  ],
+  "description": "An iconic summer brekkie made handheld. A perfectly cooked egg, crispy bacon and a slice of cheese in a toasted, warm English muffin.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9246"
+  },
+  "category": "burger",
+  "item_type": "cheese",
+  "price": 70,
+  "name": "Sausage Mcmuffin Burger",
+  "image_lg": "burger_sausage-mcmuffin.png",
+  "image_sm": "burger_sausage-mcmuffin.png",
+  "size": "140g",
+  "title": "Copper Parlour Weyland",
+  "ingredients": [
+    "bread_white",
+    "cheese",
+    "ketchup"
+  ],
+  "description": "A hot beef sausage patty, topped with a slice of cheese on a toasted English muffin. Simple and satisfying.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9247"
+  },
+  "category": "burger",
+  "item_type": "mutton",
+  "name": "Butter Mutton Burger",
+  "price": 280,
+  "size": "173g",
+  "image_lg": "burger_mcChicken.png",
+  "image_sm": "burger_mcChicken.png",
+  "title": "Lessons over an Oven",
+  "ingredients": [
+    "bread_seeded",
+    "meat_chicken",
+    "lettuce",
+    "mayonnaise"
+  ],
+  "description": "Batter & breaded chicken patty containing green peas, carrots, green beans, onion, potatoes, rice and spices, served in a bun with eggless mayonnaise and lettuce.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9248"
+  },
+  "name": "Serious Angus Burger",
+  "image_lg": "burger_serious-angus.png",
+  "image_sm": "burger_serious-angus.png",
+  "category": "burger",
+  "item_type": "beef",
+  "size": "160g",
+  "title": "Vegetables Galore Crunch",
+  "ingredients": [
+    "bread_white",
+    "meat_beef",
+    "cheese",
+    "onion",
+    "tomato",
+    "lettuce"
+  ],
+  "price": 180,
+  "description": "It’s time to get serious. With juicy 100% NZ Angus beef, bacon, red onion, fresh tomato, lettuce and cheese, not much will be able to distract you from The Serious Angus.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9249"
+  },
+  "name": "Grilled Chicken Almighty",
+  "image_lg": "burger_grilled-chicken-almighty.png",
+  "image_sm": "burger_grilled-chicken-almighty.png",
+  "category": "burger",
+  "item_type": "chicken",
+  "size": "185g",
+  "title": "It Bakes Two To Tango",
+  "ingredients": [
+    "bread_white",
+    "meat_chicken",
+    "cheese",
+    "lettuce",
+    "ketchup",
+    "mayonnaise"
+  ],
+  "price": 235,
+  "description": "Good things come in almighty packages. Featuring two grilled 100% New Zealand chicken breast pieces, bacon, tasty cheese, fresh lettuce, BBQ sauce and creamy mayo. This burger will satisfy any appetite.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb924a"
+  },
+  "name": "Crispy Chicken Almighty",
+  "image_lg": "burger_crispy-chicken-almighty.png",
+  "image_sm": "burger_crispy-chicken-almighty.png",
+  "category": "burger",
+  "item_type": "chicken",
+  "size": "200g",
+  "title": "Mealeads Peach’s Gourmet Paradise",
+  "ingredients": [
+    "bread_white",
+    "meat_chicken",
+    "cheese",
+    "lettuce",
+    "mayonnaise",
+    "ketchup"
+  ],
+  "price": 265,
+  "description": "Good things come in almighty packages. Featuring two chicken patties made with 100% New Zealand chicken breast, bacon, tasty cheese, fresh lettuce, BBQ sauce and creamy mayo. This burger will satisfy any appetite.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb924b"
+  },
+  "name": "Nyc Benedict Bagel",
+  "image_lg": "burger_nyc-benedict-bagel.png",
+  "image_sm": "burger_nyc-benedict-bagel.png",
+  "category": "burger",
+  "item_type": "egg",
+  "size": "120g",
+  "title": "Egg Pastry Deep Flavors",
+  "ingredients": [
+    "bread_white",
+    "egg",
+    "cheese",
+    "mayonnaise"
+  ],
+  "price": 110,
+  "description": "Mark the morning with bacon, egg, cheese and creamy hollandaise sauce, all on a lightly toasted bagel.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb924c"
+  },
+  "name": "Blt Bagel Burger",
+  "image_lg": "burger_blt-bagel.png",
+  "image_sm": "burger_blt-bagel.png",
+  "category": "burger",
+  "item_type": "beef",
+  "size": "137g",
+  "title": "Kwon’s Spicy Flavour",
+  "ingredients": [],
+  "price": 0,
+  "description": "Lightly toasted bagel with bacon, crisp lettuce, a juicy slice of tomato and creamy mayonnaise.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb924d"
+  },
+  "name": "Chicken Mcmuffin",
+  "image_lg": "burger_chicken-mcmuffin.png",
+  "image_sm": "burger_chicken-mcmuffin.png",
+  "category": "burger",
+  "item_type": "chicken",
+  "size": "135g",
+  "title": "Frugal Herbivore Chili",
+  "ingredients": [
+    "bread_white",
+    "meat_chicken",
+    "tomato",
+    "lettuce",
+    "mayonnaise"
+  ],
+  "price": 160,
+  "description": "Take one delicious chicken patty made with New Zealand chicken breast sourced from Ingham®, in a seasoned tempura coating, then sandwich it with creamy mayo and cheese inside a warm, toasted English muffin.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb924e"
+  },
+  "category": "burger",
+  "item_type": "cheese",
+  "price": 60,
+  "name": "Cheese Tomato Toastie Burger",
+  "image_lg": "burger_ham-cheese-tomato-toastie.png",
+  "image_sm": "burger_ham-cheese-tomato-toastie.png",
+  "size": "60g",
+  "title": "Fairytale Flavors The Rose",
+  "ingredients": [
+    "toast",
+    "cheese",
+    "tomato"
+  ],
+  "description": "Ham, tomato and melted tasty cheese, all squished between two slices of golden toast.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb924f"
+  },
+  "name": "Big Brekkie Beef Burger",
+  "image_lg": "burger_big-brekkie-beef-burger.png",
+  "image_sm": "burger_big-brekkie-beef-burger.png",
+  "category": "burger",
+  "item_type": "egg",
+  "size": "148g",
+  "title": "Cleveland Butcher Meat",
+  "ingredients": [
+    "bread_seeded",
+    "egg",
+    "meat_beef",
+    "cheese",
+    "ketchup"
+  ],
+  "price": 195,
+  "description": "The Big Brekkie Beef Burger with bacon, a freshly cracked free range egg, tasty cheese, hash brown, BBQ sauce and a 100% NZ beef 1/4lb pattie all between a sesame seed bun. Breakfast just got bigger!",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9250"
+  },
+  "name": "Double Big Mac",
+  "image_lg": "burger_double-big-mac.png",
+  "image_sm": "burger_double-big-mac.png",
+  "category": "burger",
+  "item_type": "beef",
+  "size": "425g",
+  "title": "Foodknife Battle Foodie Crave",
+  "ingredients": [
+    "bread_seeded",
+    "meat_beef",
+    "cheese",
+    "onion",
+    "cucumber",
+    "mustard"
+  ],
+  "price": 650,
+  "description": "Take four 100% NZ beef patties, add the delicious combination of crispy iceberg lettuce, melting cheese, onions, and tasty pickles, all framed between a toasted sesame seed bun. And for the grand finale a generous helping of our famous Big Mac special sauce.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9251"
+  },
+  "name": "Deluxe Cheeseburger",
+  "image_lg": "burger_deluxe-cheeseburger.png",
+  "image_sm": "burger_deluxe-cheeseburger.png",
+  "category": "burger",
+  "item_type": "mutton",
+  "size": "148g",
+  "title": "Nouvelle Fiel Quilters",
+  "ingredients": [
+    "bread_white",
+    "meat_mutton",
+    "cheese",
+    "onion",
+    "lettuce",
+    "ketchup",
+    "mustard"
+  ],
+  "price": 0,
+  "description": "The Deluxe Cheeseburger is guaranteed to induce more moreishness than most. Succulent beef patty meets melty cheese, ketchup, mayo, mustard and lettuce, all in a freshly toasted bun to create a flavour sensation.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9252"
+  },
+  "category": "burger",
+  "item_type": "beef",
+  "price": 180,
+  "name": "Quarter Pounder Burger",
+  "image_lg": "burger_quarter-pounder.png",
+  "image_sm": "burger_quarter-pounder.png",
+  "size": "155g",
+  "title": "Eating My Empire When Food Attacks",
+  "ingredients": [
+    "bread_seeded",
+    "meat_beef",
+    "cheese",
+    "cucumber",
+    "onion",
+    "ketchup"
+  ],
+  "description": "It's mighty simple, but it works. Take a whole quarter pound* of 100% Aussie beef, then complete the tasty picture with cheese, onions, tangy mustard and pickles. Bet your mouth is watering right now.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9253"
+  },
+  "name": "Double Filet O Fish Burger",
+  "image_lg": "burger_double-filet-o-fish.png",
+  "image_sm": "burger_double-filet-o-fish.png",
+  "category": "burger",
+  "item_type": "chicken",
+  "size": "163g",
+  "title": "Lupiegrass Fancy Fries",
+  "ingredients": [
+    "bread_white",
+    "meat_chicken",
+    "cheese",
+    "mayonnaise"
+  ],
+  "price": 200,
+  "description": "Dive in and enjoy our Double Filet-O-Fish. Sourced for its succulent and fresh flavour.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9254"
+  },
+  "name": "Double Mcchicken Burger",
+  "image_lg": "burger_double-mcchicken.png",
+  "image_sm": "burger_double-mcchicken.png",
+  "category": "burger",
+  "item_type": "chicken",
+  "size": "210g",
+  "title": "Fascinated And A Bbq",
+  "ingredients": [
+    "bread_seeded",
+    "meat_chicken",
+    "lettuce",
+    "mayonnaise"
+  ],
+  "price": 285,
+  "description": "Two crispy patties made with NZ chicken breast sourced from Ingham®, in a seasoned Tempura coating. Topped with locally grown crunchy iceberg lettuce and our exceptional McChicken® sauce, and served between a sesame seed bun.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9255"
+  },
+  "name": "Triple Cheeseburger",
+  "image_lg": "burger_triple-cheeseburger.png",
+  "image_sm": "burger_triple-cheeseburger.png",
+  "category": "burger",
+  "item_type": "mutton",
+  "size": "302g",
+  "title": "Crissy Crispjust Grill",
+  "ingredients": [
+    "bread_white",
+    "meat_mutton",
+    "cheese",
+    "cucumber",
+    "onion",
+    "ketchup",
+    "mustard"
+  ],
+  "price": 325,
+  "description": "A towering Triple Cheeseburger is a combo of 100% NZ beef patties, onions, pickles, ketchup, mustard and cheese, all in a soft burger bun.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9256"
+  },
+  "name": "Boss Beef Burger",
+  "image_lg": "burger_boss-beef.png",
+  "image_sm": "burger_boss-beef.png",
+  "category": "burger",
+  "item_type": "beef",
+  "size": "287g",
+  "title": "Fresh & Nourish",
+  "ingredients": [
+    "bread_seeded",
+    "meat_beef",
+    "cheese",
+    "mayonnaise",
+    "tomato",
+    "ketchup",
+    "mustard"
+  ],
+  "price": 300,
+  "description": "Eat like a boss with this Kiwi favourite. With two juicy quarter pound* beef patties, two cheeses, lettuce, onion, tomato, ketchup & mustard all on a sesame seed bun.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9257"
+  },
+  "category": "burger",
+  "item_type": "chicken",
+  "name": "McSpicy Chicken",
+  "price": 240,
+  "size": "186g",
+  "image_lg": "burger_mcSpicy_chicken.png",
+  "image_sm": "burger_mcSpicy_chicken.png",
+  "title": "Mystery Medieval Flavors",
+  "ingredients": [
+    "bread_seeded",
+    "meat_chicken",
+    "lettuce",
+    "mayonnaise"
+  ],
+  "description": "Zesty and redolent whole muscle leg meat patty: Fried to perfect golden tan; quenched with creamy veg mayo and garden-fresh shredded iceberg lettuce. The sandwich is served in fresh, sesame-studded quarter pounder bun.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9258"
+  },
+  "category": "burger",
+  "item_type": "mutton",
+  "name": "McAloo Tikki Burger",
+  "price": 260,
+  "size": "146g",
+  "image_lg": "burger_mcAloo_tikki.png",
+  "image_sm": "burger_mcAloo_tikki.png",
+  "title": "Food Hybrid The Grand Bakery",
+  "ingredients": [
+    "bread_white",
+    "meat_mutton",
+    "tomato",
+    "onion",
+    "mustard"
+  ],
+  "description": "A golden fried vegetarian patty prepared with peas, potato and infused with aromatic spices. Clubbed with sliced tomatoes, shredded red onion, and tangy tomato mayonnaise. Served in a warm toasted bun.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9259"
+  },
+  "category": "burger",
+  "item_type": "egg",
+  "name": "Dosa Masala Burger",
+  "price": 180,
+  "size": "138g",
+  "image_lg": "burger_dosa_masala.png",
+  "image_sm": "burger_dosa_masala.png",
+  "title": "Forever Eating Easily Baked",
+  "ingredients": [
+    "bread_seeded",
+    "egg",
+    "mustard"
+  ],
+  "description": "Turmeric-spiced mashed potato filling topped with fresh peas. Grilled and placed inside a soft whole wheat bun with a spicy molagapodi chutney mayo.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb925a"
+  },
+  "category": "burger",
+  "item_type": "mutton",
+  "name": "McVeggie",
+  "price": 300,
+  "size": "168g",
+  "image_lg": "burger_mcVeggie.png",
+  "image_sm": "burger_mcVeggie.png",
+  "title": "Grocery Gourmet in Nature",
+  "ingredients": [
+    "bread_seeded",
+    "meat_mutton",
+    "lettuce",
+    "mayonnaise"
+  ],
+  "description": "A delectable patty made of green goodness, potatoes, peas, carrots and a selection of Indian spices. Topped with crispy lettuce, mayonnaise, and packed into sesame toasted buns.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb925b"
+  },
+  "category": "burger",
+  "item_type": "mutton",
+  "name": "McSpicy Paneer",
+  "price": 200,
+  "size": "199g",
+  "image_lg": "burger_mcSpicy_paneer.png",
+  "image_sm": "burger_mcSpicy_paneer.png",
+  "title": "Delightful Brick Oven",
+  "ingredients": [
+    "bread_seeded",
+    "meat_mutton",
+    "lettuce",
+    "ketchup"
+  ],
+  "description": "Crispy and spicy paneer patty with creamy tandoori sauce and crispy lettuce topping.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb925c"
+  },
+  "category": "burger",
+  "item_type": "mutton",
+  "name": "Mutton King Mac Burger",
+  "price": 500,
+  "size": "306g",
+  "image_lg": "burger_mutton_king_mac.png",
+  "image_sm": "burger_mutton_king_mac.png",
+  "title": "Escaped Flavors Treats",
+  "ingredients": [
+    "bread_seeded",
+    "meat_mutton",
+    "lettuce",
+    "onion",
+    "mustard"
+  ],
+  "description": "A double-decker toasted Maharaja bun sandwiched with one layer of corn & cheese patty; crunchy iceberg lettuce; shredded onion; and a slice of cheese. Topped with another layer of corn & cheese patty; tomato slices; and crunchy iceberg lettuce infused with harberno sauce.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb925d"
+  },
+  "category": "burger",
+  "item_type": "cheese",
+  "price": 60,
+  "name": "Grilled Cheese Toastie",
+  "image_lg": "burger_ham-cheese-toastie.png",
+  "image_sm": "burger_ham-cheese-toastie.png",
+  "size": "54g",
+  "title": "Flour Shower Great Food",
+  "ingredients": [
+    "toast",
+    "cheese"
+  ],
+  "description": "Hot off the press, enjoy this classic – just like mum makes it.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb925e"
+  },
+  "category": "burger",
+  "item_type": "chicken",
+  "name": "Chicken King Mac",
+  "price": 480,
+  "size": "296g",
+  "image_lg": "burger_chicken_king_mac.png",
+  "image_sm": "burger_chicken_king_mac.png",
+  "title": "Foodie Crush Perfection",
+  "ingredients": [
+    "bread_seeded",
+    "meat_chicken",
+    "onion",
+    "lettuce",
+    "onion",
+    "tomato",
+    "mustard"
+  ],
+  "description": "A double-decker toasted Maharaja bun sandwiched with one layer of flame-grilled chicken patty; crunchy iceberg lettuce; shredded onion; and a slice of cheese. Topped with another layer of flame-grilled chicken patty; tomato slices; and crunchy iceberg lettuce infused with harberno sauce.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb925f"
+  },
+  "category": "burger",
+  "item_type": "chicken",
+  "name": "Spicy Chicken Wrap",
+  "price": 350,
+  "size": "257g",
+  "image_lg": "burger_spicy_chicken_wrap.png",
+  "image_sm": "burger_spicy_chicken_wrap.png",
+  "title": "Tube Steak Futuristic",
+  "ingredients": [
+    "paratha",
+    "meat_chicken",
+    "cheese",
+    "tomato",
+    "lettuce",
+    "mayonnaise"
+  ],
+  "description": "Juicy chicken coated with hot and crispy batter; dressed with a fresh salad of lettuce, onions, tomatoes and seasonings. Served with creamy sauce and supple cheese slices.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9260"
+  },
+  "category": "burger",
+  "item_type": "cheese",
+  "name": "Spicy Paneer Wrap",
+  "price": 300,
+  "size": "250g",
+  "image_lg": "burger_spicy_paneer_wrap.png",
+  "image_sm": "burger_spicy_paneer_wrap.png",
+  "title": "Eat Tonight When Baking",
+  "ingredients": [
+    "toast",
+    "cheese",
+    "salad"
+  ],
+  "description": "Tender paneer patty with a fiery, crunchy batter coating; dressed with fresh veggies and seasonings; topped with creamy sauce; and a dash of mustard and melted cheese.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9261"
+  },
+  "category": "condiment",
+  "name": "Barbeque Sauce",
+  "image_lg": "condiment_barbeque-sauce.png",
+  "image_sm": "condiment_barbeque-sauce.png",
+  "size": "Joyful Healthy Eats Bbq Food Hub",
+  "title": "The Kitchen Binge",
+  "price": 40,
+  "description": "Sweet? Spicy? Tangy? Savour it all, with this rich blend of tomato, vinegar and spices.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9262"
+  },
+  "category": "condiment",
+  "name": "Sweet Mustard Sauce",
+  "image_lg": "condiment_sweet-mustard-sauce.png",
+  "image_sm": "condiment_sweet-mustard-sauce.png",
+  "size": "150g",
+  "title": "The Aromatic The Fresh",
+  "price": 35,
+  "description": "Smooth? Sweet? Tangy? Savour it all, with this perfect blend of mustard, vinegar and spices.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9263"
+  },
+  "category": "condiment",
+  "name": "Mcchicken Sauce",
+  "image_lg": "condiment_mcchicken-sauce.png",
+  "image_sm": "condiment_mcchicken-sauce.png",
+  "size": "150g",
+  "title": "Eat Yourself Skinny",
+  "price": 25,
+  "description": "Smooth and saucy! A dollop of McChicken Sauce is the perfect addition to your meal.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9264"
+  },
+  "category": "condiment",
+  "name": "Sweet n sour Sauce",
+  "image_lg": "condiment_sweet-n-sour-sauce.png",
+  "image_sm": "condiment_sweet-n-sour-sauce.png",
+  "size": "150g",
+  "title": "Green Kitchen Stories Sora Bistro",
+  "price": 35,
+  "description": "Enjoy the taste of apricot or peach blended with spicy flavours including Worcestershire, vinegar, and mustard.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9265"
+  },
+  "category": "condiment",
+  "name": "Ketchup Sauce",
+  "image_lg": "condiment_ketchup-sauce.png",
+  "image_sm": "condiment_ketchup-sauce.png",
+  "size": "150g",
+  "title": "Love And Lemons",
+  "price": 20,
+  "description": "Get the classic American taste. Thick and rich, our ketchup mixes tomato with vinegar, spiced up with the flavours of celery, clove, onion and cayenne.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9266"
+  },
+  "category": "condiment",
+  "name": "Tartare Sauce",
+  "image_lg": "condiment_tartare-sauce.png",
+  "image_sm": "condiment_tartare-sauce.png",
+  "size": "150g",
+  "title": "The Healthy Dessert",
+  "price": 20,
+  "description": "Tasty and Tangy. A dollop of Tartare Sauce is a perfect addition to your meal.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9267"
+  },
+  "category": "condiment",
+  "name": "Big Mac Special Sauce",
+  "image_lg": "condiment_big-mac-special-sauce.png",
+  "image_sm": "condiment_big-mac-special-sauce.png",
+  "size": "150g",
+  "title": "Changing Habits The Fresh Blend",
+  "price": 30,
+  "description": "Everything tastes better when it tastes like the Big Mac.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9268"
+  },
+  "category": "condiment",
+  "name": "Aioli Sauce",
+  "image_lg": "condiment_aioli-sauce.png",
+  "image_sm": "condiment_aioli-sauce.png",
+  "size": "150g",
+  "title": "The Side Wild Lemonade",
+  "price": 25,
+  "description": "Smooth and creamy, this Aioli builds on the taste of any masterpiece in the making.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9269"
+  },
+  "category": "condiment",
+  "name": "Balsamic Dressing",
+  "image_lg": "condiment_balsamic-dressing-sauce.png",
+  "image_sm": "condiment_balsamic-dressing-sauce.png",
+  "size": "150g",
+  "title": "Blissful Basil Deliciously",
+  "price": 25,
+  "description": "Splash your salad with our delicious combo of balsamic and red wine vinegar. Love that Mediterranean flavour.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb926a"
+  },
+  "category": "condiment",
+  "name": "Creamy Caesar Dressing",
+  "image_lg": "condiment_creamy-caesar-dressing-sauce.png",
+  "image_sm": "condiment_creamy-caesar-dressing-sauce.png",
+  "size": "150g",
+  "title": "Chick Vegan Crumble & Flake",
+  "price": 35,
+  "description": "Creamy, rich and full of flavour, this dressing brings together mayonnaise, mustard, lemon, garlic and parmesan.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb926b"
+  },
+  "category": "condiment",
+  "name": "Hotcake Syrup",
+  "image_lg": "condiment_hotcake-syrup-sauce.png",
+  "image_sm": "condiment_hotcake-syrup-sauce.png",
+  "size": "150g",
+  "title": "Fresh Farm Flavors",
+  "price": 30,
+  "description": "Some like it sweet. Especially with our deliciously gooey hotcake syrup. Pour on as much as you like.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb926c"
+  },
+  "category": "condiment",
+  "name": "Whipped Butter",
+  "image_lg": "condiment_whipped-butter-sauce.png",
+  "image_sm": "condiment_whipped-butter-sauce.png",
+  "size": "150g",
+  "title": "Garden Cooking Ipswich",
+  "price": 28,
+  "description": "Our fluffy butter, in creamy, whipped peaks. It's like walking on air.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb926d"
+  },
+  "category": "condiment",
+  "name": "Cafe Butter",
+  "image_lg": "condiment_cafe-butter-sauce.png",
+  "image_sm": "condiment_cafe-butter-sauce.png",
+  "size": "150g",
+  "title": "Going Green and Vegan",
+  "price": 32,
+  "description": "It’s a classic, pure creamery butter with a rich satisfying, five-star taste.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb926e"
+  },
+  "category": "drink",
+  "name": "Coca Cola Vanilla",
+  "image_lg": "soft-drinks_coca-cola-vanilla.png",
+  "image_sm": "soft-drinks_coca-cola-vanilla.png",
+  "item_type": "soft_drinks",
+  "size": "350ml",
+  "title": "Delicious and Refreshing",
+  "price": 50,
+  "description": "All the refreshing taste of Coca-Cola® Classic with a hint of vanilla.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb926f"
+  },
+  "category": "drink",
+  "name": "Coca Cola",
+  "image_lg": "soft-drinks_coca-cola.png",
+  "image_sm": "soft-drinks_coca-cola.png",
+  "item_type": "soft_drinks",
+  "size": "350ml",
+  "title": "Thirst Knows No Season",
+  "price": 60,
+  "description": "There's nothing like it with the famous, thirst-quenching taste.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9270"
+  },
+  "category": "drink",
+  "name": "Long Black Coffee",
+  "image_lg": "coffee_long-black-coffee.png",
+  "image_sm": "coffee_long-black-coffee.png",
+  "item_type": "coffee",
+  "size": "210ml",
+  "title": "Make It Sweet Nebraskebab",
+  "price": 75,
+  "description": "If you really need to wake yourself up, try a shot of espresso poured over boiling water.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9271"
+  },
+  "category": "drink",
+  "name": "Kitkat Frappe",
+  "image_lg": "milk-shake_kitkat-frappe.png",
+  "image_sm": "milk-shake_kitkat-frappe.png",
+  "item_type": "milk_shake",
+  "size": "250ml",
+  "title": "Tempting Treats Recipes",
+  "price": 280,
+  "description": "Our creamy chocolate frappe blended with crushed KitKat pieces, topped with whipped cream and even more KitKat chunks.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9272"
+  },
+  "category": "drink",
+  "name": "Mccafe Blend",
+  "image_lg": "coffee_mccafe-blend.png",
+  "image_sm": "coffee_mccafe-blend.png",
+  "item_type": "coffee",
+  "size": "260ml",
+  "title": "Incredible Edibles Knead",
+  "price": 65,
+  "description": "Come in today and try our smoother, richer, blend at McCafé – Simply Good Coffee.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9273"
+  },
+  "category": "drink",
+  "name": "Sprite No Sugar",
+  "image_lg": "soft-drinks_sprite-no-sugar.png",
+  "image_sm": "soft-drinks_sprite-no-sugar.png",
+  "item_type": "soft_drinks",
+  "size": "300ml",
+  "title": "Life Tastes Good",
+  "price": 80,
+  "description": "It's refreshing, with a great lemonade taste.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9274"
+  },
+  "category": "drink",
+  "name": "Hot Chocolate Coffee",
+  "image_lg": "coffee_hot-chocolate-coffee.png",
+  "image_sm": "coffee_hot-chocolate-coffee.png",
+  "item_type": "coffee",
+  "size": "200ml",
+  "title": "Queen of Tarts Yummy Tummy",
+  "price": 85,
+  "description": "Lovers of chocolate behold: steamed full cream milk made with rich chocolate powder.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9275"
+  },
+  "category": "drink",
+  "name": "Frozen Sprite",
+  "image_lg": "soft-drinks_frozen-sprite.png",
+  "image_sm": "soft-drinks_frozen-sprite.png",
+  "item_type": "soft_drinks",
+  "size": "350ml",
+  "title": "Have a Coke and a Smile",
+  "price": 55,
+  "description": "Break the heat. Thirst-quenching Frozen Sprite® made extra cold and extra refreshing.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9276"
+  },
+  "category": "drink",
+  "name": "White Tea",
+  "image_lg": "coffee_white-tea.png",
+  "image_sm": "coffee_white-tea.png",
+  "item_type": "coffee",
+  "size": "300ml",
+  "title": "A shot of espresso mixed with only a dash of milk so you still get a strong tea taste.",
+  "price": 90,
+  "description": "On a Sugar High",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9277"
+  },
+  "category": "drink",
+  "name": "Iced Chocolate",
+  "image_lg": "milk-shake_iced-chocolate.png",
+  "image_sm": "milk-shake_iced-chocolate.png",
+  "item_type": "milk_shake",
+  "size": "280ml",
+  "title": "Sweets For Breakfast",
+  "price": 250,
+  "description": "A delicious blend of full cream milk and chocolate syrup poured over ice, plus whipped cream for the ultimate indulgence.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9278"
+  },
+  "category": "drink",
+  "name": "Cappuccino Coffee",
+  "image_lg": "coffee_cappuccino.png",
+  "image_sm": "coffee_cappuccino.png",
+  "item_type": "coffee",
+  "size": "200ml",
+  "title": "Eat Flavor Food Slice",
+  "price": 80,
+  "description": "All your favourites in one: espresso, full cream milk, a generous layer of froth and a sprinkle of chocolate powder.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9279"
+  },
+  "category": "drink",
+  "name": "Frozen Coke no sugar",
+  "image_lg": "soft-drinks_frozen-coke-no-sugar.png",
+  "image_sm": "soft-drinks_frozen-coke-no-sugar.png",
+  "item_type": "soft_drinks",
+  "size": "300ml",
+  "title": "The Cold, Crisp Taste of Coke",
+  "price": 70,
+  "description": "Thirst-quenching Frozen Coke® No Sugar made extra cold and extra refreshing.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb927a"
+  },
+  "category": "drink",
+  "name": "Black Tea",
+  "image_lg": "coffee_black-tea.png",
+  "image_sm": "coffee_black-tea.png",
+  "item_type": "coffee",
+  "size": "300ml",
+  "title": "Sugar Booger Passionate",
+  "price": 90,
+  "description": "Warm up and wind down. As strong or as weak as you like.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb927b"
+  },
+  "category": "drink",
+  "name": "Salted Caramel Frappe",
+  "image_lg": "milk-shake_salted-caramel-frappe-shake.png",
+  "image_sm": "milk-shake_salted-caramel-frappe-shake.png",
+  "item_type": "milk_shake",
+  "size": "300ml",
+  "title": "Feasting on Frosting For Bakers",
+  "price": 150,
+  "description": "A perfectly balanced Salted Caramel Frappé topped with whipped cream and chocolate drizzle.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb927c"
+  },
+  "category": "drink",
+  "name": "English Breakfast Tea",
+  "image_lg": "coffee_english-breakfast-tea.png",
+  "image_sm": "coffee_english-breakfast-tea.png",
+  "item_type": "coffee",
+  "size": "180ml",
+  "title": "Sugar Rush Sweet Pot",
+  "price": 70,
+  "description": "Kick start your day with an English Breakfast tea. Milk or no milk? The choice is yours.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb927d"
+  },
+  "category": "drink",
+  "name": "Frozen Coke",
+  "image_lg": "soft-drinks_frozen-coke.png",
+  "image_sm": "soft-drinks_frozen-coke.png",
+  "item_type": "soft_drinks",
+  "size": "300ml",
+  "title": "Ice Cold Sunshine",
+  "price": 65,
+  "description": "Break the heat. Thirst-quenching Coke® made extra cold and extra refreshing.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb927e"
+  },
+  "category": "drink",
+  "name": "Chocolate Frappe",
+  "image_lg": "milk-shake_chocolate-frappe-shake.png",
+  "image_sm": "milk-shake_chocolate-frappe-shake.png",
+  "item_type": "milk_shake",
+  "size": "350ml",
+  "title": "Hint of Vanilla Smothergood House",
+  "price": 140,
+  "description": "Chocolate syrup with whipped cream – you know it’ll always hit the spot.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb927f"
+  },
+  "category": "drink",
+  "name": "Flat White Coffee",
+  "image_lg": "coffee_flat-white.png",
+  "image_sm": "coffee_flat-white.png",
+  "item_type": "coffee",
+  "size": "200ml",
+  "title": "Grub Crust Foodie Quine",
+  "price": 100,
+  "description": "Some things are just better together, like this single shot of espresso and steamed full cream milk.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9280"
+  },
+  "category": "drink",
+  "name": "Coffee Frappe",
+  "image_lg": "milk-shake_coffee-frappe-shake.png",
+  "image_sm": "milk-shake_coffee-frappe-shake.png",
+  "item_type": "milk_shake",
+  "size": "340ml",
+  "title": "More Calories = More Taste",
+  "price": 160,
+  "description": "A deliciously creamy Coffee Frappé, topped with irresistible whipped cream and indulgent drizzle.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9281"
+  },
+  "category": "drink",
+  "name": "Fanta",
+  "image_lg": "soft-drinks_fanta.png",
+  "image_sm": "soft-drinks_fanta.png",
+  "item_type": "soft_drinks",
+  "size": "350ml",
+  "title": "Pure as Sunlight",
+  "price": 70,
+  "description": "Bright and bubbly, with that great orange taste.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9282"
+  },
+  "category": "drink",
+  "name": "Frozen Fanta Raspberry",
+  "image_lg": "soft-drinks_frozen-fanta-raspberry.png",
+  "image_sm": "soft-drinks_frozen-fanta-raspberry.png",
+  "item_type": "soft_drinks",
+  "size": "300ml",
+  "title": "Catch the Wave",
+  "price": 50,
+  "description": "Break the heat. Thirst-quenching Frozen Fanta® Raspberry made extra cold and extra refreshing.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9283"
+  },
+  "category": "drink",
+  "name": "Iced Long Black",
+  "image_lg": "coffee_iced-long-black.png",
+  "image_sm": "coffee_iced-long-black.png",
+  "item_type": "coffee",
+  "size": "250ml",
+  "title": "A Pinch of Salt",
+  "price": 60,
+  "description": "A shot of our smooth espresso with chilled water and ice.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9284"
+  },
+  "category": "drink",
+  "name": "Frozen Fanta Blueberry",
+  "image_lg": "soft-drinks_frozen-fanta-blueberry.png",
+  "image_sm": "soft-drinks_frozen-fanta-blueberry.png",
+  "item_type": "soft_drinks",
+  "size": "300ml",
+  "title": "Always Coca-Cola",
+  "price": 65,
+  "description": "Break the heat. Thirst-quenching Frozen Fanta® Blueberry made extra cold and extra refreshing.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9285"
+  },
+  "category": "drink",
+  "name": "Oreo Indulgent Shake",
+  "image_lg": "milk-shake_oreo-indulgent-shake.png",
+  "image_sm": "milk-shake_oreo-indulgent-shake.png",
+  "item_type": "milk_shake",
+  "size": "340ml",
+  "title": "Bubble Doughz Grind",
+  "price": 175,
+  "description": "Treat yourself with a OREO® Indulgent Shake. Topped off with delicious pieces of crunchy OREO® cookie pieces.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9286"
+  },
+  "category": "drink",
+  "name": "Fanta Raspberry",
+  "image_lg": "soft-drinks_fanta-raspberry.png",
+  "image_sm": "soft-drinks_fanta-raspberry.png",
+  "item_type": "soft_drinks",
+  "size": "300ml",
+  "title": "Always Coca-Cola",
+  "price": 75,
+  "description": "Bright and bubbly. Great raspberry taste.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9287"
+  },
+  "category": "drink",
+  "name": "Tropical Smoothie",
+  "image_lg": "milk-shake_tropical-smoothie-shake.png",
+  "image_sm": "milk-shake_tropical-smoothie-shake.png",
+  "item_type": "milk_shake",
+  "size": "355ml",
+  "title": "Roll and Bake",
+  "price": 125,
+  "description": "A refreshing, flavourful smoothie to make your tastebuds sing! Made with mango, pineapple and passionfruit plus no added sugar! Yes please!",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9288"
+  },
+  "category": "drink",
+  "name": "Peppermint Tea",
+  "image_lg": "coffee_peppermint-tea.png",
+  "image_sm": "coffee_peppermint-tea.png",
+  "item_type": "coffee",
+  "size": "185ml",
+  "title": "Elemeal Grassroots Foodie",
+  "price": 65,
+  "description": "Warm up and de-stress. As strong or as weak as you like, enjoy a Peppermint tea today.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9289"
+  },
+  "category": "drink",
+  "name": "Iced Latte",
+  "image_lg": "coffee_iced-latte.png",
+  "image_sm": "coffee_iced-latte.png",
+  "item_type": "coffee",
+  "size": "270ml",
+  "title": "Escaped Flavors Hope Crepe",
+  "price": 125,
+  "description": "A shot of smooth espresso combined with milk and sugar syrup poured over ice.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb928a"
+  },
+  "category": "drink",
+  "name": "Chocolate Thickshake",
+  "image_lg": "milk-shake_chocolate-thickshake-shake.png",
+  "image_sm": "milk-shake_chocolate-thickshake-shake.png",
+  "item_type": "milk_shake",
+  "size": "360ml",
+  "title": "My Bakers Bunch Cook And Shook",
+  "price": 120,
+  "description": "Made with creamy, fresh milk, ingredients and chocolate syrup, it's so thick it barely makes it up the straw.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb928b"
+  },
+  "category": "drink",
+  "name": "Strawberry Thickshake Shake",
+  "image_lg": "milk-shake_strawberry-thick-shake.png",
+  "image_sm": "milk-shake_strawberry-thick-shake.png",
+  "item_type": "milk_shake",
+  "size": "340ml",
+  "title": "On a Sugar High Halo Foodie",
+  "price": 160,
+  "description": "Made with creamy, fresh milk, ingredients and strawberry syrup, it's so thick it barely makes it up the straw.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb928c"
+  },
+  "category": "drink",
+  "name": "Green Tea",
+  "image_lg": "coffee_green-tea.png",
+  "image_sm": "coffee_green-tea.png",
+  "item_type": "coffee",
+  "size": "180ml",
+  "title": "Dinnermite Sora Bistro",
+  "price": 65,
+  "description": "Relax and wind down from your busy day. Delicious, aromatic Green tea.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb928d"
+  },
+  "category": "drink",
+  "name": "Sprite Zero Sugar",
+  "image_lg": "soft-drinks_sprite-zero-sugar.png",
+  "image_sm": "soft-drinks_sprite-zero-sugar.png",
+  "item_type": "soft_drinks",
+  "size": "350ml",
+  "title": "Sign of Good Taste",
+  "price": 60,
+  "description": "Stay refreshed with the sugar-free Sprite® Zero Sugar, a great tasting lemon lime drink.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb928e"
+  },
+  "category": "drink",
+  "name": "Vanilla Thickshake",
+  "image_lg": "milk-shake_vanilla-thickshake-shake.png",
+  "image_sm": "milk-shake_vanilla-thickshake-shake.png",
+  "item_type": "milk_shake",
+  "size": "350ml",
+  "title": "Oven Mitts and Chocolate",
+  "price": 100,
+  "description": "Made with creamy, fresh milk, ingredients in a sweet vanilla flavour, it's so thick it barely makes it up the straw.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb928f"
+  },
+  "category": "drink",
+  "name": "Earl Grey Tea",
+  "image_lg": "coffee_earl-grey-tea.png",
+  "image_sm": "coffee_earl-grey-tea.png",
+  "item_type": "coffee",
+  "size": "180ml",
+  "title": "Tasty Treats St-Denis",
+  "price": 65,
+  "description": "Brighten your day with an aromatic Earl Grey tea.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9290"
+  },
+  "category": "drink",
+  "name": "Frozen Fanta Orange",
+  "image_lg": "soft-drinks_frozen-fanta-orange.png",
+  "image_sm": "soft-drinks_frozen-fanta-orange.png",
+  "item_type": "soft_drinks",
+  "size": "300ml",
+  "title": "Coke Adds Life",
+  "price": 75,
+  "description": "Break the heat. Thirst-quenching Frozen Fanta® Orange made extra cold and extra refreshing.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9291"
+  },
+  "category": "drink",
+  "name": "Mixed Berry Smoothie",
+  "image_lg": "milk-shake_mixed-berry-smoothie-shake.png",
+  "image_sm": "milk-shake_mixed-berry-smoothie-shake.png",
+  "item_type": "milk_shake",
+  "size": "345ml",
+  "title": "Passionate About Baking",
+  "price": 135,
+  "description": "Enjoy our refreshing, trifecta berry blast to start your day or keep you going, made from strawberry, raspberry, blueberry and no added sugar.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9292"
+  },
+  "category": "drink",
+  "name": "Coca Cola no sugar",
+  "image_lg": "soft-drinks_coca-cola-no-sugar.png",
+  "image_sm": "soft-drinks_coca-cola-no-sugar.png",
+  "item_type": "soft_drinks",
+  "size": "350ml",
+  "title": "Enjoy Thirst",
+  "price": 65,
+  "description": "The best tasting sugar free Coca-Cola® ever.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9293"
+  },
+  "category": "drink",
+  "name": "Banana Shake",
+  "image_lg": "milk-shake_banana-shake.png",
+  "image_sm": "milk-shake_banana-shake.png",
+  "item_type": "milk_shake",
+  "size": "348ml",
+  "title": "Ely Food Flavorville",
+  "price": 105,
+  "description": "Impossibly thick, incredibly delicious. Made with creamy, fresh milk ingredients and banana syrup.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9294"
+  },
+  "category": "drink",
+  "name": "Iced Australiano",
+  "image_lg": "coffee_iced-australiano.png",
+  "image_sm": "coffee_iced-australiano.png",
+  "item_type": "coffee",
+  "size": "270ml",
+  "title": "Cafe Captain Brownies",
+  "price": 120,
+  "description": "A perfect blend of our McCafé coffee mixed with chai and native Australian Wattleseed.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9295"
+  },
+  "category": "drink",
+  "name": "Diet Coke",
+  "image_lg": "soft-drinks_diet-coke.png",
+  "image_sm": "soft-drinks_diet-coke.png",
+  "item_type": "soft_drinks",
+  "size": "350ml",
+  "title": "Refresh Yourself",
+  "price": 55,
+  "description": "Deliciously light. Sugar free.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9296"
+  },
+  "category": "ice_cream",
+  "name": "mcdip Chocolate",
+  "image_lg": "ice-cream_choc-mcdip.png",
+  "image_sm": "ice-cream_choc-mcdip.png",
+  "size": "93g",
+  "title": "Melts in your mouth. Goes to your heart",
+  "price": 65,
+  "description": "Macca’s® classic soft serve with a Choc top, dripping down towards a crunchy waffle cone.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9297"
+  },
+  "category": "ice_cream",
+  "name": "Soft Serve Cone",
+  "image_lg": "ice-cream_soft_serve_cone.png",
+  "image_sm": "ice-cream_soft_serve_cone.png",
+  "size": "81g",
+  "title": "Delightfully basic",
+  "price": 60,
+  "description": "Creamy vanilla soft-serve on a cone.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9298"
+  },
+  "category": "ice_cream",
+  "name": "Kitkat Mcflurry",
+  "image_lg": "ice-cream_kitkat-mcflurry.png",
+  "image_sm": "ice-cream_kitkat-mcflurry.png",
+  "size": "150g",
+  "title": "Beyond Frosting Foodie Meek",
+  "price": 180,
+  "description": "Our creamy soft serve swirled with crunchy KitKat® pieces and topped with delicious hot fudge sauce.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb9299"
+  },
+  "category": "ice_cream",
+  "name": "Oreo Cookie Mcflurry",
+  "image_lg": "ice-cream_oreo-cookie-mcflurry.png",
+  "image_sm": "ice-cream_oreo-cookie-mcflurry.png",
+  "size": "150g",
+  "title": "Call me Cupcake La Quiche Nous",
+  "price": 200,
+  "description": "Delicious pieces of crunchy OREO® cookie pieces, on top our creamy soft serve.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb929a"
+  },
+  "category": "ice_cream",
+  "name": "Hot Fudge Sundae",
+  "image_lg": "ice-cream_hot-fudge-sundae.png",
+  "image_sm": "ice-cream_hot-fudge-sundae.png",
+  "size": "90g",
+  "title": "Cookie Boss Kaleidoscope Kitchen",
+  "price": 80,
+  "description": "It's a delicious delight. A creamy sundae mix, drenched in gooey warm fudge.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb929b"
+  },
+  "category": "ice_cream",
+  "name": "Caramel Sundae",
+  "image_lg": "ice-cream_caramel-sundae.png",
+  "image_sm": "ice-cream_caramel-sundae.png",
+  "size": "95g",
+  "title": "Cookies 101 Strawberry Planet",
+  "price": 70,
+  "description": "It's a delicious delight. Soft, creamy waves of soft serve made with fresh cows' milk ingredients, doused in a sticky, sweet, warm caramel sauce.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb929c"
+  },
+  "category": "ice_cream",
+  "name": "Plain Sundae",
+  "image_lg": "ice-cream_plain-sundae.png",
+  "image_sm": "ice-cream_plain-sundae.png",
+  "size": "100g",
+  "title": "Cookies Cake Crunch Tasterpedia",
+  "price": 75,
+  "description": "Who needs topping when you've got a whole cup of our fluffy soft serve, made with fresh cows' milk ingredients.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb929d"
+  },
+  "category": "ice_cream",
+  "name": "Chocolate Serve",
+  "image_lg": "ice-cream_chocolate-soft-serve.png",
+  "image_sm": "ice-cream_chocolate-soft-serve.png",
+  "size": "120g",
+  "title": "Crazy For Crust Freshly",
+  "price": 100,
+  "description": "Macca’s® classic soft serve, now available in chocolate! Grab your favourite soft serve cone, sundae or McFlurry® in a delicious chocolate flavour.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb929e"
+  },
+  "category": "ice_cream",
+  "name": "Soft Serve Cone",
+  "image_lg": "ice-cream_soft-serve-cone.png",
+  "image_sm": "ice-cream_soft-serve-cone.png",
+  "size": "145g",
+  "title": "Dessert First Please",
+  "price": 90,
+  "description": "Our signature soft serve, layered on a crispy cone for one very cool price.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb929f"
+  },
+  "category": "ice_cream",
+  "name": "Choc Top Sundae",
+  "image_lg": "ice-cream_choc-top-super-sundae.png",
+  "image_sm": "ice-cream_choc-top-super-sundae.png",
+  "size": "154g",
+  "title": "Flavor Response Food Fiddle",
+  "price": 90,
+  "description": "Macca's creamiest soft serve with drizzlings of hot fudge sauce and a choc top to finish it off. Mmmmm!",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb92a0"
+  },
+  "category": "ice_cream",
+  "name": "strawberry Sundae",
+  "image_lg": "ice-cream_strawberry-sundae.png",
+  "image_sm": "ice-cream_strawberry-sundae.png",
+  "size": "103g",
+  "title": "Appetizing Seeker Critics Pick",
+  "price": 95,
+  "description": "Be sweet. Delicious, fluffy soft-serve made with fresh milk, topped with a yummy strawberry sauce.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb92a1"
+  },
+  "category": "ice_cream",
+  "name": "Sundae (Chocolate Brownie)",
+  "image_lg": "ice-cream_sundae_chocolate_brownie.png",
+  "image_sm": "ice-cream_sundae_chocolate_brownie.png",
+  "size": "155g",
+  "title": "A global favourite",
+  "price": 120,
+  "description": "An iconic premium dessert option. Can be bought as an add-on to make it a full meal or simply as an indulgence.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb92a2"
+  },
+  "category": "ice_cream",
+  "name": "Sundae (Chocolate)",
+  "image_lg": "ice-cream_sundae_chocolate.png",
+  "image_sm": "ice-cream_sundae_chocolate.png",
+  "size": "132g",
+  "title": "Much more than ice-cream",
+  "price": 85,
+  "description": "Creamy vanilla soft-serve topped with thick and rich hot fudge.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+},{
+  "_id": {
+    "$oid": "65649395e04ae34eb9bb92a3"
+  },
+  "category": "ice_cream",
+  "name": "Sundae (Strawberry)",
+  "image_lg": "ice-cream_sundae_strawberry.png",
+  "image_sm": "ice-cream_sundae_strawberry.png",
+  "size": "132g",
+  "title": "A little zing goes a long way",
+  "price": 75,
+  "description": "Creamy vanilla soft-serve with strawberry topping.",
+  "rating_quantity": 0,
+  "review_quantity": 0,
+  "discount": 0
+}]

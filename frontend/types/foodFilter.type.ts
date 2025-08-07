@@ -1,0 +1,1 @@
+export type ty_foodListSort = 'price_asc'| 'price_desc';

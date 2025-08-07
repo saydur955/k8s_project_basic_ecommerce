@@ -1,0 +1,182 @@
+/* =============================== index =============================== */
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.item_root {
+  flex: 0 0 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-height: 750px;
+  transition: all 0.5s;
+}
+
+.btn_content {
+  position: absolute;
+  bottom: 15%;
+  left: 6%;
+  z-index: 10;
+  display: flex;
+}
+
+/* =============================== item =============================== */
+
+
+.txtContainer {
+  flex: 0 0 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.img_container {
+  flex-grow: 1;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.txtContainer {
+  flex-grow: 1;
+}
+
+.img_container {
+  flex: 0 0 60%;
+  max-width: 92rem;
+}
+
+/* --------------- header txt  --------------- */
+.txt_bg_color {
+  background-color: var(--color_secondary);
+  height: 100%;
+  width: 100%;
+  padding-left: 10rem;
+  padding-right: 4rem;
+}
+
+.txt_bg_img {
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  display: none;
+}
+
+.txt_content {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+
+.txt {
+  color: var(--color_primary);
+  font-size: 5rem;
+  margin: 0;
+}
+
+.txt_span {
+  display: inline-block;
+}
+
+.txt_shadow {
+  color: transparent;
+  -webkit-text-stroke-width: 0.2rem;
+  -webkit-text-stroke-color: var(--color_primary);
+}
+
+/* --------------- header image  --------------- */
+
+.img_bg {
+  flex: 0 0 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.image_content {
+  display: none;
+}
+
+
+/* =============================== media =============================== */
+
+
+@media screen and (max-width: 1000px) {
+  .slider {
+    align-items: flex-start;
+  }
+  .txtContainer {
+    flex-basis: 100%;
+  }
+
+  .txt_bg_color {
+    display: none;
+  }
+  
+  .txt_bg_img {
+    display: block;
+  }
+
+  .img_container {
+    display: none;
+  }
+
+  .txt {
+    margin-top: 0.5rem;
+  }
+
+  .txt_span {
+    background-color: var(--color_secondary);
+    padding: 0.5rem 6rem;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .txt_span {
+    padding: 0.5rem 4rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .txt_content {
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .txt_span {
+    padding: 0.5rem 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .txt_content {
+    left: 1%;
+  }
+  .txt_span {
+    padding: 0.5rem 1rem;
+  }
+}

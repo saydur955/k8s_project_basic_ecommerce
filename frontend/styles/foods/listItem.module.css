@@ -1,0 +1,36 @@
+.root {
+  /* flex: 0 0 33.3%; */
+  width: 100%;
+  margin-bottom: 8rem;
+  cursor: pointer;
+}
+
+.root_link {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+}
+
+.container {
+  max-width: 30rem;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.txtContainer {
+  padding: 0 1.5rem;
+  margin-top: 1rem;
+}
+
+
+/* ==================================== media ==================================== */
+
+@media screen and (max-width: 450px) {
+  .txtContainer {
+    margin-top: 0rem;
+  }
+}

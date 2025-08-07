@@ -1,0 +1,85 @@
+.txtContainer {
+  margin-top: 10rem;
+}
+
+.txtContent {
+  position: relative;
+  width: 55%;
+  margin: 0 auto;
+  padding: 0 5rem;
+  /* border: 0.1rem solid red; */
+}
+
+.imgContainer {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ====================================== arrow ====================================== */
+.arrow {
+  position: absolute;
+  top: 7%;
+  cursor: pointer;
+  padding: 0.8rem;
+}
+
+.arrow_left {
+  left: 10%;
+}
+
+.arrow_right {
+  right: 10%;
+}
+
+/* ====================================== media ====================================== */
+
+@media screen and (max-width: 1170px) {
+  .arrow_left {
+    left: 5%;
+  } 
+  .arrow_right {
+    right: 5%;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .txtContent {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .txtContent {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .txtContent {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .txtContent {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .txtContent {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .arrow_left {
+    left: 2%;
+  } 
+  .arrow_right {
+    right: 2%;
+  }
+}
+
