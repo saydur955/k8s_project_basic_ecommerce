@@ -1,3 +1,6 @@
+import { getJWTToken } from "@/hooks/useAuth";
+import { is_server } from "./is_server.func";
+
 type T_param = {
   url: string,
   methodType?: 'GET' | 'POST' | 'PATCH' | 'DELETE',
@@ -12,6 +15,10 @@ export async function Fetch<T>({
 
   let targetUrl = '';
 
+  let headers: any =  {
+    'Content-Type': 'application/json'
+  }
+
   // if request not goes outside of the server
   if(!outside_server) {
 
@@ -19,7 +26,23 @@ export async function Fetch<T>({
       targetUrl = `/${url}`;
     }
 
-    const serverUrl = process.env.SERVER_URL || 'http://foodshop.local/api';
+    let serverUrl = '/api';
+    serverUrl = 'http://foodshop.local/api';
+
+    if(is_server) {
+      serverUrl = process.env.SERVER_URL || 'http://foodshop.local/api';
+    }
+    else {
+      const jwtToken = getJWTToken();
+
+      if(jwtToken) {
+        headers = {
+          ...headers,
+          'Authorization': `Bearer ${jwtToken}`
+        }
+      }
+
+    }
 
     targetUrl = `${serverUrl}${url}`;
 
@@ -27,9 +50,8 @@ export async function Fetch<T>({
 
   const resS = await fetch(targetUrl, {
     method: methodType,
-    headers: {
-      'Content-Type': 'application/json'
-    },
+    headers,
+
     ...(['POST', 'PATCH'].includes(methodType) && data && { 
       body: JSON.stringify(data) 
     }),

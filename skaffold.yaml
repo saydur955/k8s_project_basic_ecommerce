@@ -6,6 +6,7 @@ deploy:
       - ./k8s/products.yaml
       - ./k8s/auth.yaml
       - ./k8s/orders.yaml
+      # - ./k8s/frontend.yaml
       - ./k8s/ingress.yaml
 build:
   local:
@@ -38,3 +39,13 @@ build:
         manual:
         - src: "**/*.ts"
           dest: .
+
+
+    # - image: foodshop-frontend-dev # image name
+    #   context: frontend # dirname
+    #   docker:
+    #     dockerfile: Dockerfile
+    #   sync:
+    #     manual:
+    #     - src: "**/*.ts"
+    #       dest: .

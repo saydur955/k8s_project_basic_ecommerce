@@ -1,6 +1,9 @@
+"use client";
 import { useState, useEffect } from 'react';
 import { ty_fetch_status } from '@/types/general.type';
 import { Fetch } from '@/functions/fetch';
+
+const JWT_TOKEN_PREFIX = 'BURGERSHOP_JWT';
 
 const AUTH_PREFIX = 'BURGERSHOP_AUTH';
 
@@ -11,6 +14,24 @@ interface T_AuthData {
 };
 
 // ============== get session
+
+export const getJWTToken = () => {
+
+  const authCache = sessionStorage.getItem(JWT_TOKEN_PREFIX);
+
+  if (!authCache) return null;
+
+  return authCache;
+}
+
+
+export const setJWTToken = (token: string) => {
+
+  sessionStorage.setItem(JWT_TOKEN_PREFIX, token);
+
+}
+
+
 const getAuthSession = () => {
 
   const authCache = sessionStorage.getItem(AUTH_PREFIX);

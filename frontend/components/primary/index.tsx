@@ -59,8 +59,6 @@ export const Primary: FC<IComp> = ({ foodSummary }) => {
     setStatus("success");
   }, [selectdCategory]);
 
-  console.log(selectedFoodList);
-
   // ----------- hanlde current food item -----------
   const handleCurrentFoodItem = (idx: number) => {
     setStatus("loading");

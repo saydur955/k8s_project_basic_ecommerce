@@ -21,7 +21,7 @@ export const Order_Payment_Complete: FC<IComp> = ({ order_id }) => {
       <Section_Title title="Complete Payment" />
       <div className={classes.payment_container}>
         <div className={classes.payment_content}>
-          <Order_Payment_Paypal order_id={order_id} />
+          {/* <Order_Payment_Paypal order_id={order_id} /> */}
         </div>
       </div>
     </Fragment>

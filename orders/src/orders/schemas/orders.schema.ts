@@ -49,6 +49,14 @@ export class Order {
   @Prop({ type: String, enum: ['stripe', 'paypal'] })
   paymentMethod?: string;
 
+
+  @Prop({ type: String, required: true })
+  reciverPhone: string;
+
+  
+  @Prop({ type: String, required: true })
+  shippingAddress: string;
+
   @Prop({ type: Date })
   paidAt?: Date;
 

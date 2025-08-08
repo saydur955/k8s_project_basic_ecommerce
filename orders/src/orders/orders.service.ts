@@ -58,6 +58,8 @@ export class OrdersService {
       totalPrice: orderTotal,
       status: 'pending',
       totalPaid: 0,
+      shippingAddress: createOrderDto.shippingAddress,
+      reciverPhone: createOrderDto.reciverPhone
     });
 
     return order.save();

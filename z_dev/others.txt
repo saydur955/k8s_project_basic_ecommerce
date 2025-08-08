@@ -1,3 +1,20 @@
 
-* remove unused images (created by skaffold)
+# =========== remove unused images (created by skaffold)
   https://grok.com/share/bGVnYWN5_fd1c97f6-77cb-46d2-b71e-199d0e141225
+
+  Remove Dangling Images: 
+    docker image prune -f
+
+  List Images with Long Tags:
+    docker images --format '{{.Repository}}:{{.Tag}}' | grep -E ':[0-9a-f]{64}' | sort -u
+
+  Remove the Identified Images:
+    docker images --format '{{.Repository}}:{{.Tag}}' | grep -E ':[0-9a-f]{64}' | sort -u | xargs -r docker rmi -f
+
+  * List Non-latest Images for foodshop- Repositories:
+    docker images --format '{{.Repository}}:{{.Tag}}' | grep '^foodshop-' | grep -v ':latest$' | sort -u
+
+  * Remove Non-latest Images:
+    docker images --format '{{.Repository}}:{{.Tag}}' | grep '^foodshop-' | grep -v ':latest$' | sort -u | xargs -r docker rmi -f
+
+  

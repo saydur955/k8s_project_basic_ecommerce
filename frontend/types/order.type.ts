@@ -10,12 +10,7 @@ export type ty_payment_method = 'paypal' | 'card' | 'bank';
 export type ty_order_create_reqBody_foodList_item = {
   total_item: number;
   food_id: string;
-} | {
-  total_item: number;
-  custom_ingredients: string[];
-  custom_name: string;
-};
-
+} 
 
 // ============================ order one detail ============================
 

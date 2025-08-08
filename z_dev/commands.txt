@@ -9,6 +9,7 @@
     docker build -t foodshop-products-dev:latest ./products
     docker build -t foodshop-auth-dev:latest ./auth
     docker build -t foodshop-orders-dev:latest ./orders
+    docker build -t foodshop-frontend-dev:latest ./frontend
 
 
 
